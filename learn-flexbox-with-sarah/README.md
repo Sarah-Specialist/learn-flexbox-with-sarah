@@ -1,24 +1,34 @@
-# learn-flexbox-with-sarah
+# Learn Flexbox with Sarah
 
-## Project setup
-```
-npm install
-```
+## Table of contents
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+* Introduction
+* Built with
+* Illustrations
+* Getting Started
+* Authors and acknowledgement
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Introduction
 
-### Lints and fixes files
-```
-npm run lint
-```
+I created a website to help new software developers to learn CSS Flexbox. This website is built using Vue.js!
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Built with
+
+* Vue.js
+* Vue-Cli
+* Vue-router
+* Visual Studios Code
+* GitHub
+
+## Illustrations
+
+![](https://github.com/Sarah-Specialist/learn-flex/blob/52b15f95d257592d2c6bc6c5ea959c50d9842c29/learn-flex/public/image.jpg)
+
+## Getting Started
+
+### Usage
+
+Navigate between the two main pages of "Parent container" and "Child Item". Click on the router buttons to view the difference between the properties available.
+
+## Authors and acknowledgement
+* LinkedIn Learning
