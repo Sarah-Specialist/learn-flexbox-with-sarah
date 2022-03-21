@@ -43,7 +43,7 @@ import AsAutoPage from '../childViews/as/AsAutoPage.vue';
 
 const routes = [
   {
-    path: '/parent',
+    path: '/',
     name: 'ParentPage',
     component: ParentPage,
     children:[
@@ -251,10 +251,6 @@ const routes = [
       }
     ]
   },
-  {
-    path: '/',
-    redirect: '/parent',
-  }
 ]
 
 
