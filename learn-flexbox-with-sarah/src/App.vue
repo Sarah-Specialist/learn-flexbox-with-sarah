@@ -1,26 +1,40 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeadingBanner title="Learn Flexbox with Sarah"/>
+  <span>
+    <router-link :to="{name: 'ParentPage'}">
+      <button class="btn btn-success btn-lg" id="nav">Parent container</button>
+    </router-link>
+    <router-link :to="{name: 'ChildPage'}">
+      <button class="btn btn-success btn-lg" id="nav">Child item</button>
+    </router-link>
+  </span>
+  <div class="main-app">
+
+  </div>
+  <router-view />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeadingBanner from './components/HeadingBanner.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeadingBanner
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Open Sans' , Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  overflow-x: hidden;
+}
+
+#nav {
+  margin: 20px;
 }
 </style>
